@@ -2,8 +2,8 @@ from math import sqrt
 
 import psycopg2
 
-conn = psycopg2.connect(database="finalproject", user="gpadmin",
-                        password="privaterole", host="49.234.213.42", port="5432")
+conn = psycopg2.connect(database="finalproject", user="usr",
+                        password="*******hidden password******", host="49.234.213.42", port="5432")
 cursor = conn.cursor()
 
 
