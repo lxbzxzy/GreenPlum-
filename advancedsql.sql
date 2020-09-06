@@ -207,6 +207,7 @@ order by 指标2 desc limit(100);
 --中证200
 --***
 --把中证100最后一行的desc limit(100)改为asc limit(200)
-
+		       
+--运行结果：在sqlresult/路径中上传了运行2010年秋季四者的结果
 
 --为保护数据安全，数据库账户的密码不予显示，如有需要，可邮件咨询liu-xb18@mails.tsinghua.edu.cn
