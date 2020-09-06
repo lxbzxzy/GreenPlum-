@@ -25,7 +25,7 @@ fwrite = open('../totalcsi300.csv', 'w', encoding='utf-8', newline='')
 csv_writer = csv.writer(fwrite)
 # 连接到一个给定的数据库
 conn = psycopg2.connect(database="finalproject", user="usr",
-                        password="openusr", host="49.234.213.42", port="5432")
+                        password="*******hidden password*******", host="49.234.213.42", port="5432")
 # 建立游标，用来执行数据库操作
 cursor = conn.cursor()
 
